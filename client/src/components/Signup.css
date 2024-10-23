@@ -1,0 +1,70 @@
+/* Signup.css */
+.signup {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color:  #5ad8c9;
+}
+
+.signup-content {
+    background-color: #14a191;
+    padding: 120px;
+    border-radius: 10px;
+    box-shadow: 10px 30px 40px rgba(42, 123, 117, 0.984);
+}
+
+.form-title {
+    text-align: center;
+    color: #181616;
+}
+
+.form-group {
+    margin-bottom: 30px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-size: 30px;
+    margin-bottom: 8px;
+}
+
+input {
+    padding: 10px;
+    font-size: 20px;
+    border: 1px solid ;
+    border-radius: 5px;
+}
+
+.form-submit {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px;
+    font-size: 15px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+}
+
+.form-submit:hover {
+    background-color: #0056b3;
+}
+@media only screen and (max-width: 600px) {
+    .sign-up{
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+}
+.alreaadyRegistered{
+    display: flex;
+    width: 100%;
+   
+    justify-content: center;
+    font-weight: bolder;
+    font-size: larger;
+}
